@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/shady-portfolio/", // 👈 MUST match repo name
+  base: "/Shady-Portifilio/", // 👈 MUST match repo name
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
