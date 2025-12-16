@@ -10,7 +10,6 @@ export default function HeroSection() {
   const socialLinks = [
   { icon: Linkedin, href: 'https://www.linkedin.com/in/shady-mulla/', label: 'LinkedIn' },
   { icon: Github, href: 'https://github.com/verasolo1', label: 'GitHub' },
-  { icon: Mail, href: 'mailto:shadymulla19@gmail.com', label: 'Email' },
 ];
   const nameLetters = "SHADY MULLA".split('');
 
