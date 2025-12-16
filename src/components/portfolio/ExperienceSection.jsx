@@ -8,6 +8,7 @@ import eJPTv2 from "../../assets/certs/eJPTv2_Cert.png";
 import KAUST from "../../assets/certs/KAUST-Advanced.png";
 import Udacity from "../../assets/certs/Udacity-Foundation.png";
 import OSCP from "../../assets/certs/coming-soon.png"
+import PT1 from "../../assets/certs/PT1.png"
 
 
 const experiences = [
@@ -76,17 +77,24 @@ const certifications = [
     year: "Sep 2025",
     image: CRTA,
   },
-  {
-    title: "KAUST Advanced Cybersecurity Training",
-    issuer: "SITE x National Cybersecurity Authority",
-    year: "Apr 2025",
-    image: KAUST,
-  },
+
   {
     title: "Dante ProLab",
     issuer: "HackTheBox",
     year: "Sep 2025",
     image: Dante,
+  },
+  {
+    title: "Jr Penetration Tester (PT1)",
+    issuer: "TryHackMe",
+    year: "Jul 2025",
+    image: PT1,
+  },
+  {
+    title: "OSCP - Offensive Security Certified Professional",
+    issuer: "OffSec",
+    year: "..2026",
+    image: OSCP,
   },
   {
     title: "Foundation of Ethical Hacking",
@@ -95,10 +103,10 @@ const certifications = [
     image: Udacity,
   },
   {
-    title: "OSCP - Offensive Security Certified Professional",
-    issuer: "OffSec",
-    year: "..2026",
-    image: OSCP,
+    title: "KAUST Advanced Cybersecurity Training",
+    issuer: "SITE x National Cybersecurity Authority",
+    year: "Apr 2025",
+    image: KAUST,
   },
 ];
 
