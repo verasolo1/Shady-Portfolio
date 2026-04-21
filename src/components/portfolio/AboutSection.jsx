@@ -9,7 +9,7 @@ export default function AboutSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const highlights = [
-    { icon: Shield, label: "eJPTv2, eCPPT, PT1 & CRTA", value: "Certified" },
+    { icon: Shield, label: "eJPTv2, eCPPT, PT1, CRTA, & OSCP+", value: "Certified" },
     { icon: Users, label: "Leadership", value: "Vice Leader" },
   ];
 
