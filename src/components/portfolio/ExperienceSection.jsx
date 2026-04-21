@@ -7,7 +7,7 @@ import eCPPT from "../../assets/certs/eCPPT.png";
 import eJPTv2 from "../../assets/certs/eJPTv2_Cert.png";
 import KAUST from "../../assets/certs/KAUST-Advanced.png";
 import Udacity from "../../assets/certs/Udacity-Foundation.png";
-import OSCP from "../../assets/certs/coming-soon.png"
+import OSCP from "../../assets/certs/OSCP_Plus.png"
 import PT1 from "../../assets/certs/PT1.png"
 
 
