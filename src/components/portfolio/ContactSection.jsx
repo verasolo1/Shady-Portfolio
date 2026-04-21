@@ -23,21 +23,22 @@ const handleSubmit = async (e) => {
 
   try {
     await emailjs.send(
-      import.meta.env.VITE_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      "service_sel8gbq",          // ✅ Service ID
+      "template_m6fgb78",         // ✅ Template ID
       {
         from_name: formData.name,
         reply_to: formData.email,
         message: formData.message,
       },
-      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      "sDFUfV5Jw7U_p2lFY"           // ❗ حط الـ Public Key هنا
     );
 
     toast.success("Message sent successfully!");
     setFormData({ name: '', email: '', message: '' });
+
   } catch (error) {
-    console.error(error);
-    toast.error("Failed to send message. Please try again.");
+    console.error("EmailJS Error:", error);
+    toast.error(error.text || "Failed to send message. Please try again.");
   } finally {
     setSending(false);
   }
